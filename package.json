@@ -1,0 +1,32 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "This is bot for discord server for GA.",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/uws": "^10.149.0",
+    "bufferutil": "^4.0.1",
+    "discord.js": "^11.5.1",
+    "ffbinaries": "^1.1.4",
+    "node-opus": "^0.3.3",
+    "valid-url": "^1.0.9",
+    "youtube-dl": "^2.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synsax/discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synsax/discord-bot/issues"
+  },
+  "homepage": "https://github.com/synsax/discord-bot#readme"
+}
