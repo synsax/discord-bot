@@ -8,5 +8,6 @@ module.exports = {
         if (!queue) return message.reply('There is nothing playing.');
         queue.songs = [];
         queue.connection.dispatcher.end('Kill command has been used!');
+        voiceChannel.leave();
     }
 }
