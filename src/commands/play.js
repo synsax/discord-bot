@@ -62,7 +62,7 @@ module.exports = {
                     return;
                 }
                 const music = youtubedl(song.url, options, { cwd: __dirname });
-                searchingMessage.delete(0);
+                if (searchingMessage) searchingMessage.delete(0);
                 const dispatcher = queue.connection.playStream(music);
                 dispatcher.on('end', reason => {
                   dispatcher.destroy();

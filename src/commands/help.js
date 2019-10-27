@@ -5,9 +5,8 @@ module.exports = {
     execute(message, args) {
         const embedObj = {
           title: '**I made this command for you, You\'re welcome :wink:**',
-          description: '対応しているサイトは、YouTube, niconico, Twitch, Twitter, FB, TikTok, dailymotion, vimeo, ||Pornhub, RedTube, fc2, Tube8, You(r)Porn, XHamster||, etc...\n[Source code](https://github.com/synsax/discord-bot)',
+          description: '対応しているサイトは、YouTube, niconico, Twitch, Twitter, FB, TikTok, dailymotion, vimeo, ||Pornhub, RedTube, fc2, Tube8, You(r)Porn, XHamster||, etc...\nライブは対応してないよ\n[Source code](https://github.com/synsax/discord-bot)',
           color: 0x83D3A5,
-	        title: 'Command list',
 	        fields: [
 	        	{
 	        		name: '!play url',
@@ -19,11 +18,11 @@ module.exports = {
             },
             {
               name: '!pause',
-              value: '再生している音楽の再生を一時停止するよ',
+              value: '再生している音楽の再生を一時停止するよ。まだ実装してないよ',
             },
             {
               name: '!resume',
-              value: '一時停止している音楽を再生するよ',
+              value: '一時停止している音楽を再生するよ。まだ実装してないよ',
             },
             {
               name: '!queue',
