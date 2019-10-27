@@ -1,4 +1,3 @@
-const { RichEmbed } = require('discord.js');
 module.exports = {
     name: 'help',
     description: 'Help command.',
@@ -18,11 +17,11 @@ module.exports = {
             },
             {
               name: '!pause',
-              value: '再生している音楽の再生を一時停止するよ。まだ実装してないよ',
+              value: '再生している音楽の再生を一時停止するよ。',
             },
             {
               name: '!resume',
-              value: '一時停止している音楽を再生するよ。まだ実装してないよ',
+              value: '一時停止している音楽を再生するよ。',
             },
             {
               name: '!queue',

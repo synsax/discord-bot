@@ -10,4 +10,4 @@ module.exports = {
         }
         return message.reply('There is nothing playing.');
     }
-}
+};
