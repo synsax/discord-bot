@@ -4,7 +4,7 @@ module.exports = {
     execute(message, args) {
         const embedObj = {
           title: '**I made this command for you, You\'re welcome :wink:**',
-          description: '対応しているサイトは、YouTube, niconico, Twitch, Twitter, FB, TikTok, dailymotion, vimeo, ||Pornhub, RedTube, fc2, Tube8, You(r)Porn, XHamster||, etc...\nライブは対応してないよ\n[Source code](https://github.com/synsax/discord-bot)',
+          description: '対応しているサイトは、YouTube, SoundCloud, niconico, Twitch, Twitter, FB, TikTok, dailymotion, vimeo, ||Pornhub, RedTube, fc2, Tube8, You(r)Porn, XHamster||, etc...\nライブは対応してないよ\n[Source code](https://github.com/synsax/discord-bot)',
           color: 0x83D3A5,
 	        fields: [
 	        	{
